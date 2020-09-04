@@ -1,0 +1,37 @@
+<div
+    class="side-bar"
+    [ngClass]="{ 
+    'side-bar-short' : !sidebarIsVisible  }"
+>
+
+    <div id="menu" 
+      [ngStyle]="{'padding-right': sidebarIsVisible ? null : '11px'}"
+    >
+      <!-- <div class="menu-title"></div> -->
+      <img
+        src="https://icon-library.com/images/sidebar-icon/sidebar-icon-22.jpg"
+        (click)="onImageClick($event)"
+      />
+      <!-- Menu -->
+    </div>
+
+
+  <a href="">
+    <div class="tab-element">Home</div>  
+    <div class="icon-menu" > 
+      <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/17536770011553771531-512.png" />
+    </div>
+  </a>
+  <a href="">
+    <div class="tab-element" >Categories</div>
+      <div class="icon-menu" >
+        <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/16101269921537356038-512.png" >
+      </div>
+  </a>
+  <a href="">
+    <div class="tab-element" >Books</div>
+    <div class="icon-menu" >
+      <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/7516474631552302412-512.png">
+    </div>
+  </a>
+</div>

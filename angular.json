@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "book-shelf"
+    }
+  },
+  "defaultProject": "book-shelf",
+  "cli": {
+    "analytics": false
+  }
 }
