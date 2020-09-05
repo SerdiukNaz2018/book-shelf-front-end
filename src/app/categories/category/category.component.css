@@ -1,0 +1,18 @@
+.category-item {
+  height: 250px;
+  width: 180px;
+  border: 2px solid rgb(80 48 48);
+  border-radius: 17px 0 15px 0;
+  display: inline-block;
+  margin: 46px 75px;
+  background-color: #4e5f5f;
+  color: #96d986;
+  font-size: 20px;
+}
+
+.title {
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  text-align: center;
+}
